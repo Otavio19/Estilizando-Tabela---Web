@@ -1,0 +1,26 @@
+table{
+	width: 600px;
+	border-collapse: separate; /*Separete deixa 2px de espaço
+								 entre os dados, e o Collapse
+								 remove o expaço*/
+}
+
+th, td{
+	padding: 7px;
+}
+
+th{
+	text-transform: uppercase; /*Deixa as Letras MAIÚSCULAS*/
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #111; 
+	text-align: left;
+	letter-spacing: 0.1em; /* Espaçamento entre as letras*/
+}
+
+tr.alternado{
+	background-color: #efefef;
+}
+
+tr:hover{
+	background-color: #c3e6e5; 
+}
